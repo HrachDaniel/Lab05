@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <title>Мої гіперпосилання</title>
 </head>
-<body BGCOLOR="#FFF0F0">
+<body BGCOLOR="#FFFFFF">
 <FONT COLOR="000000" SIZE="3"
 FACE="ARIAL">
 <TABLE WIDTH=100%>
-<H1>Мої гіперпосилання</H1>
 
-    <dt><A HREF="#HrachLab01-9.htm">На головну сторінку</A></dt>
+<H1 ALIGN="CENTER" ID="top">Мої гіперпосилання</H1>
+
+    <dt><A HREF="HrachLab01-9.htm">На головну сторінку</A></dt>
 
     <dl>
-        <dt><A HREF="http://www.gmail.com/" TARGET="_blank">Поштова служба Gmail</a></dt>
+        <dt><A HREF="mailto:http://www.gmail.com/" TARGET="_blank">Поштова служба Gmail</a></dt>
         <dd>Популярна поштова служба від Google.</dd>
 
         <dt><A HREF="https://www.google.ua/" TARGET="_blank">Пошуковий сервер Google</a></dt>
@@ -35,6 +36,6 @@ FACE="ARIAL">
         <DD>Соціальна мережа для обміну короткими повідомленнями.</DD>
     </dl>
 
-    <A HREF="#">У початок сторінки</A>
+    <A HREF="#top">У початок сторінки</A>
 </body>
 </html>
